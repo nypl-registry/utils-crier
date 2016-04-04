@@ -1,0 +1,34 @@
+{
+  "name": "nypl-registry-utils-crier",
+  "version": "1.0.0",
+  "description": "Broadcasts status information to multiple sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-registry/utils-crier.git"
+  },
+  "keywords": [
+    "nypl-registry"
+  ],
+  "author": "matt miller <thisismattmiller@gmail.com> (http://twitter.com/thisismmiller)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nypl-registry/utils-crier/issues"
+  },
+  "homepage": "https://github.com/nypl-registry/utils-crier",
+  "devDependencies": {
+    "express": "^4.13.4",
+    "mocha": "^2.4.5",
+    "should": "^8.3.0",
+    "standard": "^6.0.8"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "nypl-registry-utils-database": "nypl-registry/utils-database",
+    "requests": "^0.1.7",
+    "slackbots": "^0.5.1"
+  }
+}
