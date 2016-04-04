@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/nypl-registry/utils-crier",
   "devDependencies": {
-    "express": "^4.13.4",
     "mocha": "^2.4.5",
     "should": "^8.3.0",
     "standard": "^6.0.8"
@@ -29,6 +28,7 @@
     "body-parser": "^1.15.0",
     "nypl-registry-utils-database": "nypl-registry/utils-database",
     "requests": "^0.1.7",
-    "slackbots": "^0.5.1"
+    "slackbots": "^0.5.1",
+    "express": "^4.13.4"
   }
 }
